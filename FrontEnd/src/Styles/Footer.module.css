@@ -1,0 +1,67 @@
+.footer {
+    background-color: black;
+    backdrop-filter: blur(10px);
+    padding: 1rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .md\\:flex-row {
+    @media (min-width: 768px) {
+    }
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .md\\:mb-0 {
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+  
+  .spaceX6 {
+    display: flex;
+    gap: 1.5rem;
+  }
+  /*dar uma olhada nisso depois quando abrir o projeto de novo*/
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .text-white:hover {
+    color: #1a535c;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .transition-colors {
+    transition: color 0.3s;
+  }
+  
+  .duration-300 {
+    transition-duration: 0.3s;
+  }

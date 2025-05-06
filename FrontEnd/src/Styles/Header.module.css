@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    background-color: white; 
+    backdrop-filter: blur(10px);
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerLogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerTitle {
+    color: #1A535C;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .nav {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+  
+  
+  .navLink {
+    color: #1A535C;
+    transition: color 0.3s;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .navLink:hover {
+    color: #009FB8;
+  }
+  
+  .buttonWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .button {
+    background-color: white;
+    color: #1a535c;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+  }
+  
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
