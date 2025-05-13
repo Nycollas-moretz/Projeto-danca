@@ -107,7 +107,7 @@ const SobreCurso = () => {
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.8 }}
   viewport={{ once: true }}
-  className={`${style.module} bg-gray-50 py-20 h-screen`}
+  className={`${style.module} bg-gray-50 py-20 min-h-screen`}
 >
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">

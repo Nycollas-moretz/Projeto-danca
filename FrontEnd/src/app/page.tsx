@@ -1,5 +1,4 @@
 "use client";
-// The exported code uses Tailwind CSS. Install Tailwind CSS in your dev environment to ensure all styles work.
 import "swiper/css";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -18,7 +17,7 @@ export default function HomePage() {
           <a
             href="#inicio"
             onClick={(e: React.MouseEvent<HTMLAnchorElement>) => {
-              e.preventDefault(); // Evita o recarregamento da página
+              e.preventDefault(); 
               document.getElementById('inicio')?.scrollIntoView({
                 behavior: 'smooth',
               });
@@ -263,7 +262,7 @@ Juntos, idealizam e coordenam um projeto social de Dança de Salão nas comunida
       {/* Video and About Section */}
       <section
         id="sobre"
-        className="h-screen py-20 bg-gradient-to-r from-[#009FB8]/5 to-gray-600 relative flex items-center "
+        className="min-h-screen py-20 bg-gradient-to-r from-[#009FB8]/5 to-gray-600 relative flex items-center "
       >
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiMxQTUzNUMxMCIvPjwvc3ZnPg==')] opacity-20 "></div>
         <div className="relative z-10 container mx-auto px-6 flex flex-col justify-start h-full">
